@@ -11,5 +11,5 @@ include('partials/menu.php')
 
  <?php
 
-include('./footer.php')
+include('./partials/footer.php')
 ?>

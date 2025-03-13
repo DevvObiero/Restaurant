@@ -35,5 +35,5 @@ include('partials/menu.php')
  <!-- main content section ends here -->
  <?php
 
-include('./footer.php')
+include('./partials/footer.php')
 ?>
