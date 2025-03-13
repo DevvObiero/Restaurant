@@ -1,0 +1,48 @@
+/* AUTHOR:PAUL OBIERP
+THEME :FOOD ORDER WEBSITE ADMIN
+VERSION 1.0 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: #0f9e9a; */
+}
+
+.wrapper {
+  border: 1px solid black;
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* css for menu  */
+
+.menu {
+  text-align: center;
+}
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+}
+
+/* css for menu  */
+
+/* css footer  */
+
+.footer {
+  background-color: #0f9e9a;
+  color: #f0e9e1;
+  /* padding: 1%; */
+  /* width: 80%; */
+  margin: 0 auto;
+}
+/* css footer  */
