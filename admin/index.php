@@ -12,7 +12,7 @@
 <body>
 <!-- menu section starting heheee(michael Jackson) -->
  <div class="menu">
-   <div class="wrapper">
+   <div  id="nav" class="wrapper">
    
    <ul>
       <li><a href="">Home</a></li>
@@ -28,17 +28,41 @@
 <!-- main content section starts here -->
  <div class="main-content">
  <div class="wrapper">
- Main content Goes Here
+
+ <h1 class="text-center">DASHBOARD</h1>
+ <section class="div-center">
+ <div class="col-4 text-center">
+   <h1>5</h1>
+   <br>
+   categories
+</div>
+<div class="col-4 text-center">
+   <h1>5</h1>
+   <br>
+   categories
+</div>
+<div class="col-4 text-center">
+   <h1>5</h1>
+   <br>
+   categories
+</div>
+<div class="col-4 text-center">
+   <h1>5</h1>
+   <br>
+   categories
+</div>
    </div>
-  
+  <div class="clearfix"></div>
  </div>
+ </section>
+
  <!-- main content section ends here -->
 
  <!-- footer section starts  -->
   <div class="footer">
   <div class="wrapper">
 <P class="text-center">
-   &copy; 2022 Food Order. All Rights Reserved. Designed by <a href="#">Your Name</a>   </P>
+   &copy; 2022 Food Order. All Rights Reserved. Designed by <a href="https://www.instagram.com/obinazo/">Paul Obiero</a>   </P>
 <P>
 </P>
    </div>

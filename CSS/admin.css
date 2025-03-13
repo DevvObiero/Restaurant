@@ -7,13 +7,35 @@ VERSION 1.0 */
   padding: 0;
   box-sizing: border-box;
   /* color: #0f9e9a; */
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+#nav {
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Smooth shadow */
+  padding: 10px;
+  /* border: 10px solid; */
+  background-color: rgba(255, 255, 255, 0.4); /* Semi-transparent background */
+  backdrop-filter: blur(
+    10px
+  ); /* i used this because it adds the frosted glass effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari compatibility */
+}
+.clearfix {
+  float: none;
+  clear: both;
 }
 
 .wrapper {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 1%;
   width: 80%;
   margin: 0 auto;
+  border-radius: 5px;
 }
 
 .text-center {
@@ -24,6 +46,7 @@ VERSION 1.0 */
 
 .menu {
   text-align: center;
+  margin-top: 70px;
 }
 .menu ul {
   list-style-type: none;
@@ -31,18 +54,54 @@ VERSION 1.0 */
 
 .menu ul li {
   display: inline;
-  padding: 1%;
+  padding: 1.7%;
+}
+.menu ul li a {
+  color: #313b30;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu ul li a:hover {
+  color: #faa002;
+}
+/* css for menu  */
+
+/* main content  */
+
+.main-content {
+  margin: 1% 0;
+  padding: 3% 0;
+}
+.col-4 {
+  width: 20%;
+  background-color: #313b30;
+  border-radius: 4px;
+  color: #faa002;
+  margin: 1%;
+  padding: 2%;
+  float: left;
 }
 
-/* css for menu  */
+.div-center {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically if height is defined */
+  flex-direction: row; /* Stack divs vertically (optional) */
+}
+/* main content  */
 
 /* css footer  */
 
 .footer {
-  background-color: #0f9e9a;
+  background-color: #313b30;
   color: #f0e9e1;
   /* padding: 1%; */
   /* width: 80%; */
   margin: 0 auto;
 }
 /* css footer  */
+
+.footer a {
+  color: #faa002; /* Inherits color from parent element */
+  text-decoration: none; /* Removes underline */
+}
